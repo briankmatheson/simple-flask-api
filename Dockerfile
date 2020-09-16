@@ -7,4 +7,4 @@ RUN pip install --upgrade pip
 RUN pip --no-cache-dir install -r requirements.txt
 
 COPY api /api
-ENTRYPOINT ["python /api/run.sh"]
+ENTRYPOINT ["/api/run.sh"]

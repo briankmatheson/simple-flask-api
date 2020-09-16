@@ -29,9 +29,9 @@ spec:
       containers:
         - name: api
           image: briankmatheson/api
-          command:
-            - python
-            - /api/run.py
+#          command:
+#            - python
+#            - /api/run.py
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
